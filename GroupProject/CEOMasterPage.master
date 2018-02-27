@@ -1,0 +1,91 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="CEOMasterPage.master.cs" Inherits="MasterPage" %>
+<script src='http://code.jquery.com/jquery-latest.min.js' type='text/javascript'></script>
+
+<!DOCTYPE html>
+
+<html>
+    
+<head runat="server">
+    <title></title>
+    <link href="Style/CEO.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "150px";
+        }
+
+        /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+
+        
+
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("body").css("display", "none");
+            $("body").fadeIn(1000);
+        });
+
+
+</script>
+
+
+    
+    <style>
+        .modalBackground
+        {
+            background-color: Gray;
+            filter: alpha(opacity=70);
+            opacity: 0.7;
+        }
+        .modalPopup
+        {
+            background-color: #FFFFFF;
+            border-width: 3px;
+            border-style: solid;
+            border-color: black;
+            padding-top: 10px;
+            padding-left: 10px;
+            width: 300px;
+            height: 140px;
+        }
+        .auto-style1 {
+            width: 49px;
+            height: 53px;
+            margin-left: 1%;
+            margin-top: 1%;
+        }
+    </style>
+
+</head>
+<body style="width: 74%; height: 427px">
+      <form id="form2" runat="server">
+      
+        <div id="mySidenav" class="sidenav">
+            <div class="btn-aligncenter">
+            <asp:Image ID="profileImage" runat="server" Height ="100" Width ="100"/>
+                </div>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="CEOPostWall.aspx" class="transition">Home Page</a>
+                <a href="CEOprofile.aspx" class="transition">Change Profile</a>
+                &nbsp;<a href="CreateEmployee.aspx" class="transition">Create Account</a>
+                &nbsp;<a href="Report.aspx" class="transition">View Report</a>    
+                &nbsp;<asp:Button runat="server" OnClick="Unnamed_Click" Text="logout" CssClass="btn-login" CausesValidation="False"></asp:Button>
+            
+        </div> 
+          <span onclick="openNav()" class="menuicon"><img src="http://pixsector.com/cache/852dce6a/avb91899cb3246210ca63.png" class="auto-style1" /></span>
+        <div id="main" class="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+            <div class="footer">
+            </div>            
+    </form>
+
+</body>
+</html>

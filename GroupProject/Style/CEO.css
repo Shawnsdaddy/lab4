@@ -1,0 +1,588 @@
+﻿
+h1 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #17468A;
+    font-weight: bold;
+}
+
+.btn-aligncenter {
+    text-align: center;
+}
+
+.table {
+    font-family: 'Raleway', sans-serif;
+    width: 900px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reward-points {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.0em;
+    font-weight: 900;
+    text-align: left;
+    left: 0;
+    position: relative;
+    padding: 5px;
+    text-align: left;
+}
+
+
+body, p {
+    font-family: 'Raleway', sans-serif;
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+}
+
+.td {
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn-close {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 2px;
+    right: 1px;
+    font-size: 36px;
+    margin-left: 50px;
+    padding: 16px;
+}
+
+.btn-profile {
+    color: #fff;
+    background-color: #17468A;
+    border-color: #17468A;
+    width: 30%;
+    height: 25rem;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    border-radius: 0.25rem;
+    transition: all 0.15s ease-in-out;
+    margin-right: 1rem;
+    margin-top: 10%;
+    margin-bottom: 25%;
+    margin-left: auto;
+    position: relative;
+    float: left;
+}
+
+    .btn-profile:hover {
+        color: #fff;
+        background-color: #4C8DCA;
+        border-color: #4C8DCA;
+    }
+
+
+    .btn-profile:focus, .btn-success.focus {
+        box-shadow: 0 0 0 5px rgba(120, 229, 235, 1);
+    }
+
+    .btn-profile.disabled, .btn-success:disabled {
+        background-color: #17468A;
+        border-color: #17468A;
+    }
+
+    .btn-profile:active, .btn-success.active,
+    .show > .btn-success.dropdown-toggle {
+        background-color: #17468A;
+        background-image: none;
+        border-color: #17468A;
+    }
+
+.btn-team {
+    color: #fff;
+    background-color: #4C8DCA;
+    border-color: #4C8DCA;
+    width: 45%;
+    height: 18rem;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    font-size: 1rem;
+    line-height: 1.25;
+    border-radius: 0.25rem;
+    transition: all 0.15s ease-in-out;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    position: relative;
+    float: left;
+}
+
+    .btn-team:hover {
+        color: #fff;
+        background-color: #4C8DCA;
+        border-color: #4C8DCA;
+    }
+
+
+    .btn-team:focus, .btn-success.focus {
+        box-shadow: 0 0 0 5px rgba(120, 229, 235, 1);
+    }
+
+    .btn-team.disabled, .btn-success:disabled {
+        background-color: #17468A;
+        border-color: #17468A;
+    }
+
+    .btn-team:active, .btn-success.active,
+    .show > .btn-success.dropdown-toggle {
+        background-color: #17468A;
+        background-image: none;
+        border-color: #17468A;
+    }
+
+.btn-login {
+    color: #fff;
+    background-color: #E12D53;
+    border-color: #E12D53;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    border-radius: 0.25rem;
+    transition: all 0.15s ease-in-out;
+    margin-top: 85%;
+}
+
+    .btn-login:hover {
+        color: #fff;
+        background-color: #7D192E;
+        border-color: #7D192E;
+    }
+
+
+    .btn-login:focus, .btn-success.focus {
+        box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.5);
+    }
+
+    .btn-login.disabled, .btn-success:disabled {
+        background-color: #28a745;
+        border-color: #28a745;
+    }
+
+    .btn-login:active, .btn-success.active,
+    .show > .btn-success.dropdown-toggle {
+        background-color: #218838;
+        background-image: none;
+        border-color: #7D192E;
+    }
+
+.btn-commit {
+    color: #fff;
+    background-color: #E12D53;
+    border-color: #E12D53;
+    width: 50%;
+    padding: 5px;
+    margin-top: 10%;
+    margin-bottom: 30px;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    line-height: 1.25;
+    border-radius: 0.25rem;
+    transition: all 0.15s ease-in-out;
+    position: relative;
+}
+
+    .btn-commit:hover {
+        color: #fff;
+        background-color: #7D192E;
+        border-color: #7D192E;
+    }
+
+
+    .btn-commit:focus, .btn-success.focus {
+        box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.5);
+    }
+
+    .btn-commit.disabled, .btn-success:disabled {
+        background-color: #28a745;
+        border-color: #28a745;
+    }
+
+    .btn-commit:active, .btn-success.active,
+    .show > .btn-success.dropdown-toggle {
+        background-color: #218838;
+        background-image: none;
+        border-color: #7D192E;
+    }
+
+
+/* The side navigation menu */
+.sidenav {
+    font-family: 'Raleway', sans-serif;
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #17468A; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+    /* The navigation menu links */
+    .sidenav a {
+        font-family: 'Raleway', sans-serif;
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #FFFFFF;
+        display: block;
+        transition: 0.3s;
+    }
+
+        /* When you mouse over the navigation links, change their color */
+        .sidenav a:hover {
+            color: #838AA8;
+        }
+
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn, .close {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+/*Style page content - use this if you want to push the page content to the right when you open the side navigation*/
+#main {
+    font-family: 'Raleway', sans-serif;
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+
+.rewardIcon {
+    width: 25px;
+    height: 25px;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.posts {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.textbox {
+    font-family: 'Raleway', sans-serif;
+    height: 10%;
+    width: 90%;
+    padding: 9px 9px 9px 9px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border: 2px solid #17468A;
+    margin: 2%;
+}
+
+.loginLabel {
+    font-family: 'Raleway', sans-serif;
+    height: 10%;
+    width: 80%;
+    padding: 5px 5px 5px 5px;
+    text-align: right;
+}
+
+.box {
+    width: 40%;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.2);
+    padding: 35px;
+    border: 2px solid #fff;
+    border-radius: 20px/50px;
+    background-clip: padding-box;
+    text-align: center;
+}
+
+
+.button {
+    font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #06D85F;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    background: #05A549;
+    margin-top: 2%;
+}
+
+    .button:hover {
+        background: #06D85F;
+    }
+
+.button-red {
+    font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #7D192E;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    background: #E12D53;
+    margin-top: 2%;
+}
+
+    .button-red:hover {
+        background: #7D192E;
+    }
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+    .overlay:target {
+        visibility: visible;
+        opacity: 1;
+    }
+
+.popup {
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+    .popup h2 {
+        margin-top: 0;
+        color: #333;
+        font-family: Tahoma, Arial, sans-serif;
+    }
+
+    .popup .close {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        transition: all 200ms;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+    }
+
+        .popup .close:hover {
+            color: #06D85F;
+        }
+
+    .popup .content {
+        max-height: 30%;
+        overflow: auto;
+    }
+
+
+@media screen and (max-width: 700px) {
+    .box {
+        width: 70%;
+    }
+
+    .popup {
+        width: 70%;
+    }
+}
+
+.rewardIcon {
+    width: 100px;
+    height: 100px;
+}
+
+.menuicon {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+article {
+    margin-top: 1.3em;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+.card {
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    color: #fff;
+    background-color: #4C8DCA;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-image {
+    display: inline-flex;
+    flex-shrink: 2;
+    position: relative;
+    top: 10%;
+    left: 0px;
+    width: 140px;
+    height: 140px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #4C8DCA;
+    padding: 0px;
+    float: left;
+    clear: left;
+}
+
+
+.card-content {
+    font-family: 'Raleway', sans-serif;
+    display: block;
+    -webkit-flex: 1 0 50%;
+    -ms-flex: 1 0 50%;
+    flex: 1 0 47%;
+    margin: 0;
+    background: #4C8DCA;
+}
+
+.card-content {
+    padding: 1.5em 1em 1.5em 1.5em;
+    margin: 0;
+    padding-bottom: 0;
+    background: transparent;
+    margin-left: .05em;
+}
+
+.card-header {
+}
+
+.card-subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 4px;
+    padding: 5px;
+    font-weight: 400;
+    background: transparent;
+    font-size: 15px;
+    margin-left: 37%;
+}
+
+.card-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding: 2px;
+    color: #17468A;
+    text-align: center;
+    font-size: 22px;
+}
+
+    .card-title a {
+        color: #fff;
+        text-decoration: none;
+        transition: ease 500ms all;
+    }
+
+        .card-title a:hover {
+            color: #66cccc;
+            text-decoration: none;
+        }
+
+.card-body {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    Background: transparent;
+    padding-bottom: 1.5em;
+    text-align: center;
+    margin-left: 37%;
+}
+
+.read-more {
+    margin-top: 1.5rem;
+    text-align: left;
+    color: #fff;
+    background: transparent;
+    text-align: center;
+    margin-left: 37%;
+}
+
+    .read-more a {
+        color: #fff;
+        opacity: .6;
+        color: #17468A;
+        background: #fff;
+        text-decoration: none;
+        font-size: 14px;
+    }
