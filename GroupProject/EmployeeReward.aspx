@@ -15,7 +15,7 @@
     </div>
     <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="True"></asp:ScriptManager>
     <ajaxToolkit:ModalPopupExtender ID="popReward" runat="server" TargetControlID="btnReward" PopupControlID="pnlReward" CancelControlID="btnCancel" BackgroundCssClass="modalBackground"></ajaxToolkit:ModalPopupExtender>
-    <asp:Panel ID="pnlReward" runat="server" CssClass="popup" Height="400px" Width="900px">
+    <asp:Panel ID="pnlReward" runat="server" CssClass="popup" Height="500px" Width="900px">
 
         <h1>Reward a Peer</h1>
    
@@ -67,7 +67,7 @@
                     <asp:TableCell runat="server"></asp:TableCell>
                 </asp:TableRow>
             </asp:Table>
-            <asp:Button ID="btnCommit" runat="server" Text="Reward" CssClass="button" OnClick="btnCommit_Click" OnClientClick="if (!confirm('Please double check your entered data')) return false" />
+            <asp:Button ID="btnCommit" runat="server" Text="Reward" CssClass="button" width="125px" OnClick="btnCommit_Click" OnClientClick="if (!confirm('Please double check your entered data')) return false" />
             <asp:Button ID="btnCancel" runat="server" Text="" CssClass="btn-close" Style="background-image: url('http://icons.iconarchive.com/icons/iconsmind/outline/24/Close-icon.png'); background-repeat: no-repeat" />
 
 

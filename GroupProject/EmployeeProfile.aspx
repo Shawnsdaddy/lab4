@@ -89,7 +89,7 @@
                 <asp:TableCell>
                     <asp:Label ID="lblOldPass" runat="server" Text="Old PassWord:"></asp:Label>
                 </asp:TableCell><asp:TableCell>
-                    <asp:TextBox ID="txtOldPass" runat="server" CssClass="textbox" Width="300"></asp:TextBox> 
+                    <asp:TextBox ID="txtOldPass" runat="server" CssClass="textbox" Width="300" TextMode="Password"></asp:TextBox> 
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator5" ValidationGroup="password" runat="server" text-align="right" class="auto-style1" ForeColor="Red" ControlToValidate="txtOldPass" ErrorMessage="*"></asp:RequiredFieldValidator>
                                 </asp:TableCell>
             </asp:TableRow>
@@ -97,7 +97,7 @@
                 <asp:TableCell>
                     <asp:Label ID="lblNewPass1" runat="server" Text="New PassWord:"></asp:Label>
                 </asp:TableCell><asp:TableCell>
-                    <asp:TextBox ID="txtNew1" runat="server" CssClass="textbox" Width="300"></asp:TextBox>
+                    <asp:TextBox ID="txtNew1" runat="server" CssClass="textbox" Width="300" TextMode="Password"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator6" ValidationGroup="password" runat="server" class="auto-style1" ForeColor="Red" ControlToValidate="txtNew1" ErrorMessage="*"></asp:RequiredFieldValidator>
                     <asp:RegularExpressionValidator ValidationGroup="password" ID="RegularNew1" runat="server" ControlToValidate="txtNew1" ValidationExpression="((?=.*\d)(?=.*[a-z])(?=.*[\W]).{8,12})" Text="Password must be 8-12 Characters long, contain one lowercase characters, one digit from 0-9,and at least one special character" />
                 </asp:TableCell>
@@ -106,7 +106,7 @@
                 <asp:TableCell>
                     <asp:Label ID="lblNewPass2" runat="server" Text="Re-enter New Password:"></asp:Label>
                 </asp:TableCell><asp:TableCell>
-                    <asp:TextBox ID="txtNew2" runat="server" CssClass="textbox" Width="300"></asp:TextBox>
+                    <asp:TextBox ID="txtNew2" runat="server" CssClass="textbox" Width="300" TextMode="Password"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator7" ValidationGroup="password" runat="server" class="auto-style1" ForeColor="Red" ControlToValidate="txtNew2" ErrorMessage="*"></asp:RequiredFieldValidator>
                     <asp:CompareValidator ValidationGroup="password" ID="RegularNew2" runat="server" ControlToValidate="txtNew2" ControlToCompare="txtNew1" Type="String" Operator="Equal" Text="Password must be same as new password" />
                 </asp:TableCell>

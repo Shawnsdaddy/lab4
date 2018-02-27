@@ -586,3 +586,13 @@ article {
         text-decoration: none;
         font-size: 14px;
     }
+
+.RBL label {
+    display: block;
+}
+
+.RBL td {
+    text-align: center;
+    width: 20px;
+    vertical-align: bottom;
+}
